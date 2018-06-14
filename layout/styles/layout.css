@@ -68,6 +68,7 @@
 #pageintro .heading {
 	margin-bottom: 20px;
 	font-size: 3rem;
+	text-align: center;
 }
 
 #pageintro p:first-of-type {
