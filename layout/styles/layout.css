@@ -1331,3 +1331,10 @@ table a,
 .bgded {
 	background-image:url('../../images/demo/backgrounds/conciergerie-luxe-1.jpg');
 }
+
+.row1 {
+position: fixed;
+color: #FFFFFF;
+background-color: rgba(0, 0, 0, .2);
+background-color: rgba(0, 0, 0, .5);
+ }
