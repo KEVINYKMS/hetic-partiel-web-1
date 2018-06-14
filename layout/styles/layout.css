@@ -4,7 +4,10 @@
 @import url("font-awesome.min.css");
 @import url("framework.css");
 
+
 /* Top Bar --------------------------------------------------------------------------------------------------------------- */
+
+
 
 #topbar {
 	padding: 15px 0;
@@ -1220,8 +1223,24 @@ table a,
 		margin-top: 3px;
 	}
 	#mainav {}
+
+
+	#burgerMenu1 {
+	display: none;
+	position: absolute;
+	top: 60px;
+	right: 20px;
+}
+
+
+.burgerMenu {
+	height: 1px;
+	width: 100%;
+	background: white;
+}
+
 	#mainav ul {
-		display: none;
+
 	}
 	#mainav form {
 		display: block;
@@ -1330,7 +1349,7 @@ table a,
 }
 
 .bgded {
-	background-image:url('../../images/demo/backgrounds/conciergerie-luxe-1.jpg');
+	background-image:url('../../images/backgrounds/conciergerie-luxe-1.jpg');
 }
 
 .row1 {

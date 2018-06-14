@@ -14,3 +14,15 @@ document.addEventListener('scroll', function(){
 top.back_to_top.addEventListener('click', function(){
     document.documentElement.scrollTop = document.body.scrollTop = 0;
 });
+
+
+var burgerMenu = document.querySelector('#burgerMenu1');
+var mainNavigationList = document.querySelector('#mainav ul');
+
+burgerMenu.addEventListener('click', function() {
+	if (mainNavigationList.style.display === "none") {
+		mainNavigationList.style.display = "block";
+	} else {
+		mainNavigationList.style.display = "none";
+	}
+});
